@@ -1,0 +1,16 @@
+@mixin text-replacement {
+  display: block;
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin md {
+  @media (min-width: 768px){
+    @content
+  
+  }
+}
+
+
+

@@ -1,0 +1,76 @@
+body {
+  font-family: "SF Pro Text","PingFangTC",sans-serif;
+  line-height: $line-height-base;
+  ul {
+    margin: 0;
+    padding-left: 0;
+  }
+  li {
+    margin: 0;
+    // padding: 0;
+    list-style: none;   //unstyle
+  }
+  p {
+    margin: 0;
+  }
+}
+.font-ping-fang {
+  font-family: PingFangTC;
+} 
+
+.h-inherit {
+  height: inherit;
+}
+
+.lh-none {
+  line-height: 0;
+}
+.lh-lger {
+  line-height: 80px;
+}
+
+
+.bg-darker {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+// subscribe
+.input-ps {
+  padding-left: 0.9rem;
+}
+.button-lger {
+  padding: 1.125rem 1.625rem;
+}
+
+.link-white {
+  &:hover,
+  &:focus {
+    color: rgb(190, 190, 190);
+  }
+}
+
+.link-black-disable {
+  pointer-events: none;
+  color: $primary-l;
+  text-decoration: underline;
+}
+.link-black {
+  &:hover,
+  &:focus {
+    color: $primary-l;
+    text-decoration: underline;
+  }
+
+}
+
+
+// grid 檢測器
+.display-grid {
+  .row {
+    background-color: lightblue;
+    background-clip: content-box;
+    height: 50px;
+  }
+  span {
+    background-color: antiquewhite;
+  }
+}

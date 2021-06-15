@@ -1,0 +1,71 @@
+.products-img-1 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products1.jpg) center / cover;
+}
+
+.products-img-2 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index6.jpg)  bottom  / cover;
+}
+
+.products-img-3 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products3.jpg) top 35%  right 50% / cover;
+}
+
+.products-img-4 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products4.jpg) top 30% right 50% / cover;
+}
+
+.products-img-5 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products5.jpg) top 30% right 50% / cover;
+}
+
+.products-img-6 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index4.jpg) left 6% bottom 25% / 200%;
+}
+
+.products-img-7 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products7.jpg) bottom 30% right 50% / cover;
+}
+
+.products-img-8 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products8.jpg) center / cover;
+}
+
+.products-img-9 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index3.png) center / cover;
+}
+
+.products-img-10 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products10.jpg) center / cover;
+}
+
+.products-img-11 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products11.jpg) bottom 30% right 50% / cover;
+}
+
+.products-img-12 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products12.jpg) bottom 40% center / cover;
+}
+
+.py-ratio-1x1 {
+  padding: 50% 0;
+}
+
+
+.mb-product-card {
+  margin-bottom: 30px;
+  @include md {
+    margin-bottom: 56px;
+  }
+  div {
+    margin-bottom: 2px;
+    .img {
+      margin-bottom: 2px;
+    }
+  }
+  ul {
+    li {
+      margin-right: 11px;
+    }
+  }
+}
+

@@ -1,0 +1,32 @@
+.end-n1 {
+  right: -3px;
+}
+
+.w-logo {
+  width: 128px;
+}
+
+.w-footer-nav {
+  width: 263px;
+}
+
+.py-navbar-logo {
+  padding: 16px 0;
+}
+.py-footer-logo {
+  padding: 21px 0;
+}
+
+.img-logo {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/d’Perfume@2x.png) no-repeat center / contain;
+  @include text-replacement;
+}
+
+.img-footer-logo {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/d’Perfumewhite@2x.png) center / cover no-repeat;
+  @include text-replacement;
+}
+
+
+
+

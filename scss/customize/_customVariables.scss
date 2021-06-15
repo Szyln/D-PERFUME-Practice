@@ -1,0 +1,116 @@
+// bootstrap _variable 目錄
+// 色系
+
+$primary:       #916000;
+$secondary:     #8D8D8D;
+
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light, 
+  "dark":       $dark
+);
+
+$primary-l: #AC8A46;
+$primary-d: #916019;
+$secondary-l:#E0E0E0;
+$white: #fff;
+$black: #000;
+
+$custom-theme-colors: (
+  "primary-l":  $primary-l,
+  "primary-d":  $primary-d,
+  "secondary-l":  $secondary-l,
+  "white": $white,
+  "black": $black,
+) ;
+
+
+
+$gray-cold: #495057; 
+$gray-cold-d: #373A3C; 
+
+$custom-grays: (
+  "cold": $gray-cold,
+  "cold-d": $gray-cold-d 
+);
+
+
+// Options (預設樣式)
+// $enable-negative-margins:  true;
+// Spacing
+// Component
+
+// Body
+// link 
+$link-decoration: none;
+
+
+// breakpoints
+// Grid containers
+// Grid columns
+
+$grid-gutter-width:           0.9375rem;
+// mixin _grid
+$custom-gutters: (
+  "base": $spacer * 0.9375,
+  "expand": $spacer * 1.875,
+);
+
+// Typography
+
+// fs-{數字} 的新增 
+$custom-font-sizes: (
+  7: .875rem,
+  8: .75rem
+);
+
+$font-weight-semibold: 600;
+.fw-semibold {
+  font-weight: $font-weight-semibold;
+}
+
+$custom-spacers: (
+  "0-1": $spacer * 0.1875,
+  "1-1": $spacer * .375,
+  "2-1": $spacer * 0.875,
+  "4-2": $spacer * 1.75,
+  "4-3": $spacer * 2,
+  "4-4": $spacer * 2.5,
+  "4-5": $spacer * 2.625,
+  "3-1": $spacer * 1.25,
+  6: $spacer * 3.75,
+  7: $spacer * 5,
+  8: $spacer * 19.5,
+
+);
+
+//// Buttons + Forms
+// $input-btn-padding-y-lg:      .5rem ;
+
+// 合併
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+$grays: map-merge($grays, $custom-grays);
+$font-sizes: map-merge($font-sizes, $custom-font-sizes);
+$spacers: map-merge($spacers, $custom-spacers);
+$gutters: map-merge($gutters, $custom-gutters);
+
+// Navs
+$navbar-padding-y: 0.1875px ;
+$nav-link-font-size: 1.25rem;
+$navbar-light-color: $secondary;
+$navbar-light-toggler-border-color: none;
+$navbar-toggler-border-radius: none;
+
+$navbar-toggler-padding-y:          0px;
+$navbar-toggler-focus-width:        1px;
+$dropdown-color:                    white;
+$dropdown-bg: #707070;
+$dropdown-color: white;
+
+// bg

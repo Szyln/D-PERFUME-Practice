@@ -1,0 +1,90 @@
+.img-1 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index1.jpg) 0 20% / cover no-repeat;
+  
+}
+.img-2 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index2.jpg)  0% 26% / cover;
+  
+}
+.img-3 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index3.png) 0% 26% / cover;
+}
+.img-4 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index4.jpg) 0% 10% / cover;
+}
+.img-5 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index5.jpg)right 30% bottom 0% / cover;
+}
+.img-6 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index6.jpg) 50% bottom / cover;  
+}
+.img-7 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index7.jpg) center / cover;
+  
+}
+.img-8 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index8.jpg) center / cover;
+
+}
+.img-9 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index9.jpg) center / cover;
+}
+.img-10 {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg) 25% 50% / cover;
+}
+
+
+
+
+
+.h-img-banner {
+  height: 450px;
+  @include md {
+    height: 870px;
+  }
+}
+.h-img-subscribe {
+  height: 600px;
+}
+
+.py-ratio-img-2col {
+  padding: 50.7% 0;
+  @include md {
+    height: 550px;
+    padding: 25% 0;
+  }
+}
+.py-ratio-img-2col-long {
+  padding: 98.6% 0;
+
+  
+
+  @include md {
+    height: 1080px;
+    padding: 48.6% 0;
+  }
+}
+.py-ratio-img-3col {
+  padding: 50.7% 0;
+  @include md {
+    padding: 77.05% 0;
+  }
+}
+.py-ratio-img-recycling {
+  padding: 75.4% 0;
+  @include md {
+    padding: 23.4% 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

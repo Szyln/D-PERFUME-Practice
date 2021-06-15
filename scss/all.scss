@@ -1,0 +1,19 @@
+// 自訂變數
+@import "../bootstrap/scss/functions";
+
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+
+@import "customize/customVariables";
+@import "../bootstrap/scss/bootstrap.scss";
+
+
+
+// @import "customize/reset";
+@import "customize/mixin";
+
+@import "customize/navbarAndFooter";
+
+@import "customize/main";
+@import "customize/index";
+@import "customize/products";
